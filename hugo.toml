@@ -1,0 +1,22 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Notas de Modelos Gráficos Probabilísticos'
+
+[module]
+  [[module.imports]]
+    path = "github.com/FabioSol/Lykeion"
+
+[author]
+  name = "Fabio Sol"
+  homepage = "https://yoursite.com"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
+    lineNumbersInTable = true
+
+[params]
+  description = "Notas del curso de Modelos Gráficos Probabilísticos"
+  math = true
+  defaultSlideKind = "content"
